@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posters | Hues</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Bodoni+Moda&family=Cormorant+Garamond:wght@300&family=GFS+Didot&family=Montserrat:wght@500&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="catstyle.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="container1">
+            <a class="logo" href="index.html">
+                <img src="/images/Hues.png" alt="Hues logo">
+            </a>
+            <div class="nav-links">
+                <ul>
+                <li class="search-bar">
+                    <input type="text" id="search-box" placeholder="Search artwork">
+                    <button onclick="search()">Go</button>
+                </li>
+                <li class="signup">
+                    <a href="/signup.html">Sign up</a>
+                </li>
+                <li class="login">
+                    <a href="/login.html">Log in</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div class="categories">
+        <ul>
+    <li><a href="paintings.html">Paintings</a></li>
+    <li><a href="photography.html">Photography</a></li>
+    <li><a href="posters.html">Posters</a></li>
+    <li><a href="sketches.html">Sketches</a></li>
+    <li><a href="digital.html">Digital</a></li>
+        </ul>
+</div>
+<hr>
+</header>
+<div class="paintings-container" >
+    <div class="painting-card" id="painting-card-1">
+      <img src="/images/photography/p1.jpg" alt="Painting 1">
+      <div class="painting-details">
+        <h3>Blue Sky</h3>
+        <p class="painting-price">$20</p>
+        <div class="buttons-container">
+          <button class="wishlist-btn">Add to Wishlist</button>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="painting-card" id="painting-card-2">
+      <img src="/images/photography/p2.jpg" alt="Painting 2">
+      <div class="painting-details">
+        <h3>Sunrise</h3>
+        <p class="painting-price">$25</p>
+        <div class="buttons-container">
+          <button class="wishlist-btn">Add to Wishlist</button>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="painting-card" id="painting-card-3">
+      <img src="/images/photography/p3.jpg" alt="Painting 1">
+      <div class="painting-details">
+        <h3>Mountains</h3>
+        <p class="painting-price">$19</p>
+        <div class="buttons-container">
+          <button class="wishlist-btn">Add to Wishlist</button>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="painting-card" id="painting-card-4">
+      <img src="/images/photography/p4.jpg" alt="Painting 1">
+      <div class="painting-details">
+        <h3>Golden Retriver</h3>
+        <p class="painting-price">$15</p>
+        <div class="buttons-container">
+          <button class="wishlist-btn">Add to Wishlist</button>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="painting-card" id="painting-card-5">
+      <img src="images/photography/p5.jpg" alt="Painting 1">
+      <div class="painting-details">
+        <h3>Dog</h3>
+        <p class="painting-price">$20</p>
+        <div class="buttons-container">
+          <button class="wishlist-btn">Add to Wishlist</button>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="painting-card" id="painting-card-6">
+      <img src="/images/photography/p6.jpg" alt="Painting 1">
+      <div class="painting-details">
+        <h3>Evening Sky</h3>
+        <p class="painting-price">$19</p>
+        <div class="buttons-container">
+          <button class="wishlist-btn">Add to Wishlist</button>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <!-- More painting cards here -->
+</div>
+
+<!--Popup 1-->
+    <div class="painting-popup" id="painting-popup-1">
+    <div class="popup-content">
+    <img src="/images/pink floyd 2.jpg" alt="Painting 1">
+    <div class="painting-details">
+      <h3>Vincent Van Gogh</h3>
+      <p class="painting-price">$200</p>
+      <p class="painting-description">This painting depicts the artist, Van Gogh merged with his own artwork.</p>
+      <div class="buttons-container">
+        <button class="wishlist-btn">Add to Wishlist</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+    <button class="close-btn">X</button>
+    </div>
+    </div>
+
+    <!--Popup 2-->
+    <div class="painting-popup" id="painting-popup-2">
+    <div class="popup-content">
+    <img src="/images/paintings/p1.jpg" alt="Painting 2">
+    <div class="painting-details">
+      <h3>Abstract Citylights</h3>
+      <p class="painting-price">$100</p>
+      <p class="painting-description">This painting depicts a city in knife painting style.</p>
+      <div class="buttons-container">
+        <button class="wishlist-btn">Add to Wishlist</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+    <button class="close-btn">X</button>
+    </div>
+    </div>
+
+    <!--Popup 3-->
+    <div class="painting-popup" id="painting-popup-2">
+    <div class="popup-content">
+    <img src="/images/paintings/p2.jpg" alt="Painting 2">
+    <div class="painting-details">
+      <h3>Nirvana </h3>
+      <p class="painting-price">$199</p>
+      <p class="painting-description"> Nirvana-In Utero Poster.</p>
+      <div class="buttons-container">
+        <button class="wishlist-btn">Add to Wishlist</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+    <button class="close-btn">X</button>
+    </div>
+    </div>
+
+    <!--Popup 4-->
+    <div class="painting-popup" id="painting-popup-2">
+    <div class="popup-content">
+    <img src="/images/paintings/p3.jpg" alt="Painting 2">
+    <div class="painting-details">
+      <h3>Led Zeppelin</h3>
+      <p class="painting-price">$120</p>
+      <p class="painting-description">Led Zeppelin.</p>
+      <div class="buttons-container">
+        <button class="wishlist-btn">Add to Wishlist</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+    <button class="close-btn">X</button>
+    </div>
+    </div>
+    <!--Popup 5-->
+    <div class="painting-popup" id="painting-popup-2">
+    <div class="popup-content">
+    <img src="/images/paintings/p4.jpg" alt="Painting 2">
+    <div class="painting-details">
+      <h3>Rock Poster</h3>
+      <p class="painting-price">$299</p>
+      <p class="painting-description">Poster comprising of various rock bands of all time.</p>
+      <div class="buttons-container">
+        <button class="wishlist-btn">Add to Wishlist</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+    <button class="close-btn">X</button>
+    </div>
+    </div>
+    <!--Popup 6-->
+    <div class="painting-popup" id="painting-popup-2">
+    <div class="popup-content">
+    <img src="/images/paintings/p5.jpg" alt="Painting 2">
+    <div class="painting-details">
+      <h3>Pink Floyd</h3>
+      <p class="painting-price">$200</p>
+      <p class="painting-description">Pink Floyd Poster.</p>
+      <div class="buttons-container">
+        <button class="wishlist-btn">Add to Wishlist</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+    <button class="close-btn">X</button>
+    </div>
+    </div>
+<script src="search.js"></script>
+</body>
+</html>

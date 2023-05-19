@@ -1,0 +1,233 @@
+/* Set global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.container1 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 25px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 200px;
+}
+.nav-links button{
+  color: white;
+  background-color: #133B6E;
+  padding: 6px;
+  margin: 2px;
+  border-radius: 5px;
+  font-family: Baskerville;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
+.nav-links button:hover{
+  background-color: #000000;
+}
+.signup a, .login a {
+  color: #FFFFFF;
+  background-color: #D86F6C;
+  border-radius: 5px;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.signup a:hover,
+.login a:hover {
+  background-color: #000000;
+}
+
+.login {
+  margin-left: auto;
+}
+.categories {
+  background-color: whitesmoke;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories ul {
+  display: flex;
+  list-style: none;
+}
+
+.categories li {
+  margin: 0 10px;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #343434;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hero {
+  height: 77vh;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.big-image {
+  width: 70%;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.small-image {
+  width: 30%;
+  object-fit: cover;
+  padding: 10px;
+  position: relative;
+}
+.image-text {
+  position: absolute;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  bottom: 0;
+  right: 0;
+  color: #ffffff;
+  background-color: black;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  align-content: center;
+}
+.featured-container {
+  padding: 25px 0px;
+  text-align: center;
+}
+
+.featured-text {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  margin: 0 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card-text a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #73B7B8;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.discover-text{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 60px;
+  padding: 20px;
+  background-color: whitesmoke;
+  font-family:Baskerville;
+}
+
+.categories2 {
+  background-color: whitesmoke;
+  padding: 0px 0px 20px 0px ;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-box {
+  border: 1px solid #343434;
+  padding: 20px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+
+/* Signup and login popups*/
+/* Style the signup button in the navbar */
+#signup-button {
+  background-color: #73B7B8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.category-box a{
+  text-decoration: none;
+  color: #000000;
+}
+
